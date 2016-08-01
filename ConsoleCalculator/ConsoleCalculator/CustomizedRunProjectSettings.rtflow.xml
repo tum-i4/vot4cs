@@ -1,0 +1,40 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:SerializableCustomizedRunProjectSettings id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<build_settings href="#ref-3"/>
+</a1:SerializableCustomizedRunProjectSettings>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="a1:SerializableBuildSettings[1]" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-4"/>
+</SOAP-ENC:Array>
+<a1:SerializableBuildSettings id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<configuration id="ref-5">Release</configuration>
+<platform id="ref-6">Any CPU</platform>
+<run_settings href="#ref-7"/>
+</a1:SerializableBuildSettings>
+<a1:SerializableCustomizedRunSettings id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<settings href="#ref-8"/>
+</a1:SerializableCustomizedRunSettings>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="a1:SerializableCustomizedRunSettings+SerializableSettingValue[4]" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+</SOAP-ENC:Array>
+<a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-13">StopMonitoringWhenCommandCompletes</name>
+<value id="ref-14">True</value>
+</a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue>
+<a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-15">Command</name>
+<value id="ref-16">C:\_DEV_\thesis2015-SVN\source\ConsoleCalculator\ConsoleCalculator\bin\Release\ConsoleCalculator.exe</value>
+</a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue>
+<a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-17">WorkingDirectory</name>
+<value id="ref-18">C:\_DEV_\thesis2015-SVN\source\ConsoleCalculator\ConsoleCalculator\bin\Release</value>
+</a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue>
+<a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/assem/RuntimeFlow%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-19">Arguments</name>
+<value id="ref-20">1 3</value>
+</a1:SerializableCustomizedRunSettings_x002B_SerializableSettingValue>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
