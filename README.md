@@ -2,6 +2,7 @@
 A Virtualization Obfuscation Tool for C# programs
 
 ==== USAGE ====
+
 Usage: <tool> <config-file> <solution-file>
 - tool: the .exe binary file
 - config-file: an app.config file (see example bellow)
@@ -10,6 +11,7 @@ Usage: <tool> <config-file> <solution-file>
  .\CodeVirtualization-Console\App2.config 	.\ConsoleCalculator\ConsoleCalculator.sln
 
 ==== OBFUSCATION CONFIGURATIONS ====
+
 example: .\CodeVirtualization-Console\CodeVirtualization-Console\App2.config
 
 key="CODE_IDENTIFIER" value="virtualCode2" 
@@ -32,6 +34,7 @@ Mark a method for virtualization with the following annotation:
 
 
 ==== LANGUAGE FEATURES NOT SUPPORTED ====
+
 - try/catch
 - foreach 
 - ref,
@@ -39,10 +42,12 @@ Mark a method for virtualization with the following annotation:
 
 
 ==== OBFUSCATION TOOL FOLDER: CodeVirtualization-Console ====
+
 - contains the source code of the virtualization obfuscation tool
 
 
 
 ==== EXAMPLES FOLDER: ConsoleCalculator ====
+
 - contains sample methods which can be obfuscated with the tool
 - contains source code used for the performance evaluation of the virtualization
